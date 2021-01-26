@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="xyz.kainotomia.examenu3.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_crear"
+        android:name="xyz.kainotomia.examenu3.ui.crear.CrearFragment"
+        android:label="Crear"
+        tools:layout="@layout/fragment_crear" />
+
+    <fragment
+        android:id="@+id/nav_listar"
+        android:name="xyz.kainotomia.examenu3.ui.listar.ListarFragment"
+        android:label="Listar"
+        tools:layout="@layout/fragment_listar" >
+        <action
+            android:id="@+id/action_nav_listar_to_nav_crear"
+            app:destination="@id/nav_crear" />
+    </fragment>
+</navigation>

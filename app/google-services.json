@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385659799288",
+    "project_id": "regufirebase",
+    "storage_bucket": "regufirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385659799288:android:e100e7ad7464e155ec5d0d",
+        "android_client_info": {
+          "package_name": "xyz.kainotomia.examenu3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385659799288-fg2tcf0ilvevgosbnbqffdm6nf6hd1mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDSvLBNw0HNfRulRKGVbUGjGSngFQjwcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385659799288-fg2tcf0ilvevgosbnbqffdm6nf6hd1mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
