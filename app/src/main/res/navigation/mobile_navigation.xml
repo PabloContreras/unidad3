@@ -26,4 +26,14 @@
             android:id="@+id/action_nav_listar_to_nav_crear"
             app:destination="@id/nav_crear" />
     </fragment>
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="xyz.kainotomia.examenu3.BuscarFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/nav_creditos"
+        android:name="xyz.kainotomia.examenu3.ui.creditos.CreditosFragment"
+        android:label="Créditos"
+        tools:layout="@layout/fragment_creditos" />
 </navigation>
